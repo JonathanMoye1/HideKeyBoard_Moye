@@ -28,14 +28,14 @@
 /* Begin PBXFileReference section */
 		0D0F468A1A92933C008A69E8 /* HideKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0F468E1A92933C008A69E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D0F468F1A92933C008A69E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D0F46911A92933C008A69E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D0F46941A92933C008A69E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D0F46961A92933C008A69E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0D0F468F1A92933C008A69E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D0F46911A92933C008A69E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = ViewController.swift; sourceTree = "<group>"; };
+		0D0F46941A92933C008A69E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D0F46961A92933C008A69E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		0D0F46991A92933C008A69E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0D0F469F1A92933C008A69E8 /* HideKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0F469F1A92933C008A69E8 /* HideKeyBoardTests */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HideKeyBoardTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0F46A41A92933C008A69E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D0F46A51A92933C008A69E8 /* HideKeyBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyBoardTests.swift; sourceTree = "<group>"; };
+		0D0F46A51A92933C008A69E8 /* HideKeyBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = HideKeyBoardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				0D0F468A1A92933C008A69E8 /* HideKeyBoard.app */,
-				0D0F469F1A92933C008A69E8 /* HideKeyBoardTests.xctest */,
+				0D0F469F1A92933C008A69E8 /* HideKeyBoardTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			);
 			name = HideKeyBoardTests;
 			productName = HideKeyBoardTests;
-			productReference = 0D0F469F1A92933C008A69E8 /* HideKeyBoardTests.xctest */;
+			productReference = 0D0F469F1A92933C008A69E8 /* HideKeyBoardTests */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -405,6 +405,7 @@
 				0D0F46AB1A92933C008A69E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D0F46AC1A92933C008A69E8 /* Build configuration list for PBXNativeTarget "HideKeyBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				0D0F46AE1A92933C008A69E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
